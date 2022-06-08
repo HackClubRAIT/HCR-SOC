@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
-
+import Projects from './Components/Projects';
 ReactDOM.render(
-  <h1>Hack Club Rait Summer of Code</h1>,
+  <>
+  <Projects/></>
+  ,
   document.getElementById('root')
 );
 

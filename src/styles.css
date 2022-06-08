@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Satisfy&family=Ubuntu:wght@300;400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+:root{
+    --light-grey:#ECECEC;
+}
+body{
+    background-color: var(--light-grey);
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.headings{
+    text-align: center;
+    font-size: 4rem;
+    /* color: #de0000; */
+    font-family: 'Bungee Outline', cursive;
+    margin: 0px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    grid-gap: 40px;
+    margin: 30px;
+}
+.project_card{
+    padding: 1.3em;
+    background-color: white;
+    border-top: 10px solid #FFC300;
+    text-align: center;
+    border-radius: 7px;
+    transition: transform .2s;
+
+}
+.project_card:hover{
+    /* background-color: #FFC300; */
+    transform: translateY(-10px);
+    box-shadow: 0px 7px 12px 0px #a7a3a3; 
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search{
+    width: 50%;
+    padding: 10px;
+    font-size: 25px;
+
+}
