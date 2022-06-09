@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:#ececec;
+    /* margin-bottom:100px; */
+    overflow: hidden;
+}
+
+
+
