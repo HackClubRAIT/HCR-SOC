@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+
+body{
+background-color: #ECECEC;
+background-image: radial-gradient(#c1c1c1 1.9500000000000002px, #ECECEC 1.9500000000000002px);
+background-size: 39px 39px;
+}
+
+.homeheading{
+    font-size: 4vw;
+    color: rgb(105, 105, 105);
+    font-family: 'Source Sans Pro',cursive;
+    animation: 2s anim-lineUp ease-out 1;
+
+}
+.homeheading1{
+    font-size: 7vw;
+    color: #de0000;
+    font-family: 'Kumar One Outline', cursive;
+    animation: 2s anim-lineUp ease-out 1;
+
+}
+.homeback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    /* height: fit-content; */
+    padding: 50px;
+    border-radius: 25px;
+}
+.homeImg{
+    width:30vw
+}
+/*Mobile view*/
+@media (max-width:650px) {
+    .homeImg{
+       padding: 20px;
+       height: 30vh;
+       width: auto;
+    }
+    .homeheading{
+        font-size: 7vw;
+    
+    }
+    .homeheading1{
+        font-size: 11vw;
+    
+    }
+    .homeback{
+        display: grid;
+        justify-items: center;
+        padding: 10vh 0 0 0;
+    }
+}
+/* Text animation*/
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+

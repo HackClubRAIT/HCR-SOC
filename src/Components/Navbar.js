@@ -12,9 +12,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import {Link,Outlet} from 'react-router-dom';
 import './NavBar.css';
 
-const pages = ['Home','About','Timeline', 'Projects', 'Sponsors','FAQ', 'Contact Us'];
+const pages = ['Home','About','Timeline', 'Sponsors','FAQ', 'Contact Us'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {
@@ -90,9 +91,17 @@ const NavBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography href="/" textAlign="center">{page}</Typography>
+                                <Typography href="/" textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
+              <MenuItem key="Projects" onClick={handleCloseNavMenu}>
+                      <Typography href="/" textAlign="center">
+                  <Link to="/Projects" className='link' style={{textDecoration:"none",color:"black"}}>
+                        Projects
+                  </Link>    
+                        
+                        </Typography>
+                </MenuItem>
             </Menu>
           </Box>
           {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
@@ -116,6 +125,7 @@ const NavBar = () => {
           </Typography> */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              // <Link to={`/${page}`} className='link' style={{textDecoration:"none"}}>
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -123,7 +133,19 @@ const NavBar = () => {
               >
                 {page}
               </Button>
+              
+              // </Link>
             ))}
+            <Link to="/Projects" className='link' style={{textDecoration:"none"}}>
+            <Button
+                key="Projects"
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'black', display: 'block' }}
+              >
+                Projects
+              </Button>
+            </Link>
+
           </Box>
 
           {/* <Box sx={{ flexGrow: 0 }}>
@@ -156,6 +178,7 @@ const NavBar = () => {
             </Menu>
           </Box> */}
         </Toolbar>
+        <Outlet/>
       </Container>
     </AppBar>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Chip } from '@mui/material'
-import '../styles.css'
+import '../css/styles.css'
 import { fontWeight } from '@mui/material/node_modules/@mui/system'
 const proj_styles={
   name:{
@@ -9,10 +9,10 @@ const proj_styles={
   tech:{
     backgroundColor:"#4D96FF", 
     color: "#fdfeff", 
-    marginRight:"15px", 
-    marginBottom:'10px',
+    margin:"15px 0px 15px 15px", 
+    // marginBottom:'10px',
     size:"medium", 
-    fontSize:"1rem" ,
+    fontSize:"0.8em" ,
     // padding:"10px", 
     // height:"30px",
     borderRadius:"15px",
@@ -29,7 +29,7 @@ export const ProjectCards=(props)=> {
           <Chip label={tech.toUpperCase()} sx={proj_styles.tech}/>)
           }
           </div>
-          <p style={{fontSize: 25}}>{props.desc}</p>
+          <p style={{fontSize: 20}}>{props.desc}</p>
       </div>
   )
 }
