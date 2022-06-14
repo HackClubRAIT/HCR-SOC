@@ -49,6 +49,7 @@ const BootstrapDialogTitle = (props) => {
 const proj_styles={
   name:{
     color:"#de0000",
+    fontSize:"170%"
   },
   tech:{
     backgroundColor:"#4D96FF", 
@@ -56,7 +57,7 @@ const proj_styles={
     margin:"15px 0px 15px 15px", 
     // marginBottom:'10px',
     size:"medium", 
-    fontSize:"0.8em" ,
+    fontSize:"0.7em" ,
     // padding:"10px", 
     // height:"30px",
     borderRadius:"15px",
@@ -82,11 +83,11 @@ export const ProjectCards=(props)=> {
           <Chip label={tech.toUpperCase()} sx={proj_styles.tech}/>)
           }
           </div>
-          <p style={{fontSize: 20}}>{props.desc}</p><br/>
+          <p style={{fontSize: 15}}>{props.desc}</p><br/>
           <Button variant="outlined" onClick={handleClickOpen}>
             more details
           </Button>
-          <BootstrapDialog
+          { <BootstrapDialog
             onClose={handleClose}
             aria-labelledby="customized-dialog-title"
             open={open} style={{textAlign:"center"}}
@@ -107,7 +108,7 @@ export const ProjectCards=(props)=> {
               <a href={props.mentor_linkedin} style={{color:"#0a66c2"}} target="_blank_"><LinkedInIcon fontSize='large'/></a></div>
 
             </DialogContent>
-          </BootstrapDialog>
+          </BootstrapDialog> }
             </div>
   )
 }

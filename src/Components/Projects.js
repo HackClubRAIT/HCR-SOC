@@ -11,7 +11,7 @@ export const Projects=()=> {
     <div style={{ paddingTop:"10vh"}}>
      <AppBar position="fixed" >
       <Container maxWidth="xl" className="navbar sticky" style={{display:"flex"}}>
-      <img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px", margin:"10px 0px"}} alt="logo"/>
+      <a href="/home"><img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px", margin:"10px 0px"}} alt="logo"/></a>
       <Box sx={{ flexGrow: 1, display: 'flex' }} style={{justifyContent:"end"}}>         
         <div className='navbar' style={{padding:"10px"}}>
         <Link to="/Home" className='link' style={{textDecoration:"none"}}>

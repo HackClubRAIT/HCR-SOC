@@ -1,0 +1,77 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.contact div{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.cgmail{
+    border: 1px solid rgb(72, 72, 72);
+}
+.cgmail a{
+    color:rgb(72, 72, 72);
+}
+.clinkedin{
+    border: 1px solid #0a66c2;
+}
+.clinkedin a{
+    color: #0a66c2;
+}
+.cgithub{   
+    border: 1px solid black;
+}
+.cgithub a{
+    color: black;
+}
+.ctwitter{   
+    border: 1px solid #00acee;
+}
+.ctwitter a{
+    color: #00acee;
+}
+.cinsta{
+    border: 1px solid #d53e91;
+}
+.cinsta a{
+    color:#d53e91;
+}
+.cgmail:hover{
+    background-color: rgb(72, 72, 72);
+    
+}
+.cinsta:hover{
+    background-color: #d53e91;
+}
+.clinkedin:hover{
+    background-color: #0a66c2;  
+}
+.ctwitter:hover{
+    background-color: #00acee;  
+}
+.cgithub:hover{
+    background-color: black;  
+}
+.cgmail:hover > .gm{
+    color:white;
+}
+.cinsta:hover > .in{
+    color:white;
+}
+.clinkedin:hover > .li{
+    color:white;
+}
+.cgithub:hover > .gi{
+    color:white;
+}
+.ctwitter:hover > .tw{
+    color:white;
+}

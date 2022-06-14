@@ -17,7 +17,7 @@ import {Link,Outlet} from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
 import './NavBar.css';
 
-const pages = ['About','Timeline', 'Team','FAQ', 'Contact Us'];
+const pages = ['About','Register','Timeline', 'Team','FAQ', 'Contact Us'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {
@@ -43,7 +43,7 @@ const NavBar = () => {
     <AppBar position="fixed" >
       <Container maxWidth="xl" className="navbar sticky">
         <Toolbar disableGutters>
-          <img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px"}} alt="logo"/>
+          <a href="/home"><img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px"}} alt="logo"/></a>
           {/* <Typography
             variant="h6"
             noWrap
