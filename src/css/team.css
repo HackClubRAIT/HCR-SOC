@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+#Team{
+    padding-top: 10vh;
+}
 .team{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));

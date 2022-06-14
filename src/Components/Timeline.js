@@ -2,14 +2,13 @@ import Aos from "aos";
 import React from "react";
 import "../css/timeline.css";
 import { useEffect } from "react";
-
 const Timeline = () => {
   useEffect(() => {
     Aos.init();
     Aos.refresh();
   }, []);
   return (
-    <div>
+    <div style={{paddingTop:"10vh"}} id="Timeline">
       <section className="timer-section">
         <h1 style={{ textAlign: "center" }} className="timeline-head">Timeline</h1>
         <div className="container">

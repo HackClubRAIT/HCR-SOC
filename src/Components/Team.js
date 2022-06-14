@@ -3,7 +3,8 @@ import TeamCards from './TeamCards'
 import {team} from '../backend/team'
 import '../css/team.css'
 function Team() {
-  return (<>
+  return (
+  <div id="Team">
   <h1 className='headings'>Team</h1>
     <div className='team'>
     {
@@ -12,7 +13,7 @@ function Team() {
       
       })
     }
-    </div></>
+    </div></div>
     
   )
 }
