@@ -45,3 +45,8 @@ body{
     font-size: 25px;
 
 }
+.proj_icons{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+}

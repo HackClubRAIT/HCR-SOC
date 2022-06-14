@@ -24,7 +24,7 @@ function SearchProjects() {
                 if(searchProj === ""){
                     return val
                 }
-                else if(val.name.split("/")[1].toLowerCase().includes(searchProj.toLowerCase()))
+                else if(val.name.toLowerCase().includes(searchProj.toLowerCase()))
                 {
                     return val;
                 }
@@ -33,7 +33,16 @@ function SearchProjects() {
                 }
                 return 0;
             }).map((val,key)=>{
-                return <ProjectCards name={val.name} tech_stack={val.tech_stack} desc={val.desc}/>
+                return <ProjectCards 
+                name={val.name} 
+                tech_stack={val.tech_stack} 
+                desc={val.desc} 
+                repo={val.repo} 
+                proj_admin={val.proj_admin} 
+                mentor_mail={val.mentor_mail}
+                mentor_linkedin={val.mentor_linkedin}
+                mentor_github={val.mentor_github}
+                />
             })
         }
         </div>

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+.step2 {
+    border-bottom: 2px solid lightblue;
+    border-radius: 0 3px 3px 0;
+    padding: 20px 15px;
+    position: relative;
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 4%);
+    margin: 10px;
+  }

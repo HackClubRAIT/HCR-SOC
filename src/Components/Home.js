@@ -34,9 +34,9 @@ function Home() {
       <About/>
       <Timeline/>
       <Sponsors/>
-      <Faq/>
       <Contact/>
       <Team/>
+      <Faq/>
       <Footer/>
 
     </>
