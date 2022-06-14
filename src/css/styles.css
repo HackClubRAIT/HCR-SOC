@@ -2,6 +2,12 @@
 :root{
     --light-grey:#ECECEC;
 }
+@media (max-width:520px) {
+    html,body{
+        height: 100vw;
+        width: 100vw;
+    }
+}
 body{
     background-color: var(--light-grey);
     /* font-family: 'Ubuntu', sans-serif; */
