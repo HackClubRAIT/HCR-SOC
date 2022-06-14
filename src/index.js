@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Projects from './Components/Projects';
-import NavBar from './Components/Navbar';
+import App from './App';
+
 ReactDOM.render(
-  <div>
-  <NavBar />
-  <Projects/>
-  
-  </div>
-  ,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
