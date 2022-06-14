@@ -1,9 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Projects from './Components/Projects';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from './Components/Home';
-
-// import AOS from 'aos';
 import 'aos/dist/aos.css';
 function App() {
     return (
@@ -13,7 +12,6 @@ function App() {
             <Route path="Home" element={<Home />} />
             <Route path="/" element={<Home />} />
                 <Route path="Projects" element={<Projects />} />
-    
             </Routes>
           </BrowserRouter>
       {/* <NavBar />
