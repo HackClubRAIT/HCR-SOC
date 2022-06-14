@@ -6,6 +6,7 @@ body{
     background-color: var(--light-grey);
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
 }
 .headings{
     text-align: center;
@@ -44,4 +45,9 @@ body{
     padding: 10px;
     font-size: 25px;
 
+}
+.proj_icons{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
 }

@@ -11,11 +11,13 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 // import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import logo from '../images/hackclubrait-logo.png'
 // import AdbIcon from '@mui/icons-material/Adb';
 import {Link,Outlet} from 'react-router-dom';
+import { Link as LinkScroll} from 'react-scroll';
 import './NavBar.css';
 
-const pages = ['Home','About','Timeline', 'Sponsors','FAQ', 'Contact Us'];
+const pages = ['About','Timeline', 'Team','FAQ', 'Contact Us'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {
@@ -38,10 +40,10 @@ const NavBar = () => {
 //   };
 
   return (
-    <AppBar position="static" >
+    <AppBar position="fixed" >
       <Container maxWidth="xl" className="navbar sticky">
         <Toolbar disableGutters>
-          {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+          <img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px"}} alt="logo"/>
           {/* <Typography
             variant="h6"
             noWrap
@@ -60,7 +62,7 @@ const NavBar = () => {
           
           </Typography> */}
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }} style={{justifyContent:"end"}}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -69,7 +71,7 @@ const NavBar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <MenuIcon />
+              <MenuIcon sx={{color:"black"}}/>
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -91,7 +93,9 @@ const NavBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                <Typography href="/" textAlign="center">{page}</Typography>
+                  <LinkScroll activeClass="active" smooth spy to={page}>
+                  <Typography href="/" textAlign="center">{page}</Typography>              </LinkScroll>
+                                
                 </MenuItem>
               ))}
               <MenuItem key="Projects" onClick={handleCloseNavMenu}>
@@ -123,7 +127,7 @@ const NavBar = () => {
           >
             LOGO
           </Typography> */}
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} style={{justifyContent:"end"}}>
             {pages.map((page) => (
               // <Link to={`/${page}`} className='link' style={{textDecoration:"none"}}>
               <Button
@@ -131,11 +135,14 @@ const NavBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'black', display: 'block' }}
               >
+                <LinkScroll activeClass="active" smooth spy to={page}>
                 {page}
+              </LinkScroll>
               </Button>
               
               // </Link>
             ))}
+            
             <Link to="/Projects" className='link' style={{textDecoration:"none"}}>
             <Button
                 key="Projects"

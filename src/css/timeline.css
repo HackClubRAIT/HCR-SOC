@@ -10,11 +10,6 @@ body {
   min-height: 100vh;
   font-family: "Source Sans", sans-serif;
 }
-.timeline-head{
-  font-family: 'Bungee Outline',sans-serif;
-  font-size: 3rem;
-  margin: 0;
-}
 .timer-section {
   min-height: 100vh;
 }
