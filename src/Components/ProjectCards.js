@@ -1,7 +1,7 @@
 import React from 'react'
 import { Chip } from '@mui/material'
 import '../css/styles.css'
-import { fontWeight } from '@mui/material/node_modules/@mui/system'
+// import { fontWeight } from '@mui/material/node_modules/@mui/system'
 const proj_styles={
   name:{
     color:"#de0000",

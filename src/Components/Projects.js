@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchProjects from './SearchProjects'
-import {Link,Outlet} from 'react-router-dom';
+// import {Link,Outlet} from 'react-router-dom';
 import NavBar from './Navbar'
 export const Projects=()=> {
   return (

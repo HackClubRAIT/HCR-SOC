@@ -31,6 +31,7 @@ function SearchProjects() {
                 else if(check.includes(true)){
                     return val;
                 }
+                return 0;
             }).map((val,key)=>{
                 return <ProjectCards name={val.name} tech_stack={val.tech_stack} desc={val.desc}/>
             })

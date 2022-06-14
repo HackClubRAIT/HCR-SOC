@@ -1,4 +1,4 @@
-import {React,useEffect} from 'react'
+import {React} from 'react'
 import homepic from '../images/coding.png'
 import { Button } from '@mui/material'
 import NavBar from './Navbar'
@@ -10,6 +10,7 @@ import About from './About'
 import Sponsors from './Sponsors'
 import Faq from './Faq'
 import Contact from './Contact'
+import Team from './Team'
 function Home() {
   const mobile=useMediaQuery('(max-width:650px)')
   let buttonSize;
@@ -35,6 +36,7 @@ function Home() {
       <Sponsors/>
       <Faq/>
       <Contact/>
+      <Team/>
       <Footer/>
 
     </>
