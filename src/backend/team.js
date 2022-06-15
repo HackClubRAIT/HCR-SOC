@@ -9,14 +9,14 @@ export const team=[
     {
         "name":"Kshitija Bharambe",
         "desig":"Co-Lead",
-        "linkedin":"https://www.linkedin.com/in/girija-g-778935197/",
-        "github":"https://github.com/girija0707",
+        "linkedin":"https://www.linkedin.com/in/kshitija-bharambe/",
+        "github":"https://github.com/kshitija-2001",
         "images":"Kshitija.jpg"
     },
     {
         "name":"Purva Kharsambale",
         "desig":"Creative Lead",
-        "linkedin":"https://www.linkedin.com/in/girija-g-778935197/",
+        "linkedin":"https://www.linkedin.com/in/purva-kharsambale-166603197/",
         "github":"https://github.com/girija0707",
         "images":"Purva Kharsambale.jpeg"
     },
