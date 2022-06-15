@@ -15,7 +15,7 @@ function TeamCards(props) {
         <p>{props.desig}</p>
         <div className="IconDiv">
           <div className='ldiv'><a className="linkedin" href={props.linkedin}><LinkedInIcon/></a></div>
-          <div className='gdiv'><a className="github" href={props.github}><GitHubIcon/></a></div>
+          {/* <div className='gdiv'><a className="github" href={props.github}><GitHubIcon/></a></div> */}
           {/* <div className='tdiv'><a className="twitter" href="#"><TwitterIcon/></a></div> */}
         </div>
       </Paper>
