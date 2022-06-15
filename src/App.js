@@ -13,8 +13,9 @@ function App() {
             <Route path="Home" element={<Home />} />
             <Route path="/" element={<Home />} />
                 <Route path="Projects" element={<Projects />} />
-            </Routes>
             <Route path="*" component={PageNotFound} />
+
+            </Routes>
           </BrowserRouter>
       {/* <NavBar />
       <Projects/> */}
