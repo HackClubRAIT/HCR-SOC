@@ -8,7 +8,7 @@ import '../css/contact.css'
 function Contact() {
   return (
     <>
-    <div style={{paddingTop:"5vh",height:"90vh"}} id="Contact Us">
+    <div style={{paddingTop:"5vh"}} id="Contact Us">
     <h1 className='headings'>Contact</h1>
     <div className='contact'>
       <div className='cgmail'>

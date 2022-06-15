@@ -3,9 +3,8 @@
 
 
 #About{
-   
-    padding: 200px 5%;
-    
+    padding: 100px 5%;
+    overflow-x: hidden;
 }
 
 .AboutUs{
