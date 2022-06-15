@@ -2,8 +2,9 @@ import React from 'react';
 import '../css/about.css'
 function About() {
     return (
+
         <div id="About" style={{paddingTop:"10vh"}}>
-          <h1 className='headings'>About Us</h1>
+        <h1 className='headings'>About Us</h1>
             <div className="AboutUs">
     <h1>
     About HackClub RAIT Summer of Code
@@ -32,14 +33,14 @@ function About() {
             </h3>
     </div> 
 
-    <div id="home_vision">
+    {/* <div id="home_vision">
         <h1><b>Vision</b></h1><br/>
         <div data-aos="fade-up">
         <h2>Our aim is to flourish <br/>the thrilling open-source culture<br/> to create a favorable environment for <br/><b>open-source contributions.</b>      
         </h2><br/>
         <h2>Let's come together and learn, interact, and grow. 💻 </h2>
         </div><br/>
-    </div>
+    </div> */}
 </div>
         </div>
     )

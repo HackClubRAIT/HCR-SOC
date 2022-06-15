@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
+
+
+#About{
+   
+    padding: 200px 5%;
+    
+}
+
+.AboutUs{
+    width: 100%;
+}
+
+#home_about {
+    height: 100%;
+    background-color: white;
+    text-align: justify;
+    padding: 200px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content h1 {
+    color: #de0000;
+}
+
+/* .content {
+    min-width: 49%;
+    width: 49%;
+} */
+
+#home_vision {
+    height: 100%;
+    text-align: center;
+    padding: 5%;
+    padding: 200px 5%;
+    background-color: white;
+}
