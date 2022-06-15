@@ -21,7 +21,7 @@ export const proj=[
             "desc":"An open source project to bring all the data structures and algorithms docs under one repository."
         },
         {
-            "name":"HackClubRAIT.github.io",
+            "name":"HackClubRAIT",
             "tech_stack":["Html","Css","Javascript"],
             "proj_admin":"Chaitali Shetty",
             "repo":"https://github.com/HackClubRAIT/HackClubRAIT.github.io/",

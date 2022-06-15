@@ -18,7 +18,7 @@ function Register() {
                 <h1>Project Maintainer</h1><br/>
                 <Divider/><br/>
                 <p style={{fontSize:"30px"}}>If you have some amazing projects which you want to open-source, then register here</p><br/>
-                <a href="https://forms.gle/mhfhZzh7cySuGakH7" style={{textDecoration:"none"}} target="_blank_">
+                <a href="https://forms.gle/yUCg5BBKgJvgi9Mn6" style={{textDecoration:"none"}} target="_blank_">
                 <Button variant='contained' color='primary'> Register here</Button>
                 </a>
             </Card>        
