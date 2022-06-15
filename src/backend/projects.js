@@ -21,7 +21,7 @@ export const proj=[
             "desc":"An open source project to bring all the data structures and algorithms docs under one repository."
         },
         {
-            "name":"HackClubRAIT.github.io",
+            "name":"HackClubRAIT",
             "tech_stack":["Html","Css","Javascript"],
             "proj_admin":"Chaitali Shetty",
             "repo":"https://github.com/HackClubRAIT/HackClubRAIT.github.io/",
@@ -30,6 +30,15 @@ export const proj=[
             "mentor_github":"https://github.com/Chaitalishetty",
             "desc":"HackClub RAIT focuses essentially on open-source. Our aim is to flourish the thrilling open-source culture to create a favorable environment for open-source contributions."
         },
-        
+        {
+            "name":"Frontend-Owls",
+            "tech_stack":["Html","Css","Javascript","Bootstrap"],
+            "proj_admin":"Girija Gupte",
+            "repo":"https://github.com/HackClubRAIT/Frontend-Owls",
+            "mentor_mail":"mailto:girijagupte7@gmail.com",
+            "mentor_linkedin":"https://www.linkedin.com/in/girija-g-778935197/",
+            "mentor_github":"https://github.com/girija0707",
+            "desc":"An open source project to bring all front end documentation under one repository."
+        },
         
     ]

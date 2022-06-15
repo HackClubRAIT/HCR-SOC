@@ -9,7 +9,7 @@ function Team() {
     <div className='team'>
     {
       team.map((val)=>{
-        return <TeamCards name={val.name} desig={val.desig} linkedin={val.linkedin} github={val.github} images={val.images}/>
+        return <TeamCards name={val.name} desig={val.desig} linkedin={val.linkedin} images={val.images}/>
       
       })
     }
