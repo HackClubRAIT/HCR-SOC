@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+@media (min-width:751px) {
+    .spons_img{
+        margin-left: 30px;
+    }
+    .spons_title{
+    border-right: 2px solid rgb(92, 92, 92);
+    }
+    .spons_icon{
+        width: auto;
+        height:50px;
+        margin-right: 20px;
+    }
+}
+@media (max-width:751px) {
+    .sp_image{
+        width:80vw !important;
+    }
+    .spons_img{
+    text-align:center;
+    }
+    .spons_icon{
+        display: none;
+    }
+}
+.spons_section{
+    background-color: #b6b5b58f;
+    border-radius: 20px;
+    margin: 0px 2em;
+    
+}
+.sponsor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+}
+.spons_title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    height: 15vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #303030;
+}
+.spons_img{
+    margin-top:10px
+}
+.sp_image{
+width:25vw;
+height:auto
+}

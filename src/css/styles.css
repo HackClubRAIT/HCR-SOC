@@ -3,9 +3,9 @@
     --light-grey:#ECECEC;
 }
 @media (max-width:520px) {
-    html,body{
-        height: 100vw;
-        width: 100vw;
+    .projects{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) !important;
+        margin: 20px;
     }
 }
 body{
@@ -16,14 +16,15 @@ body{
 }
 .headings{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     /* color: #de0000; */
     font-family: 'Bungee Outline', cursive;
     margin: 0px;
 }
+
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     grid-gap: 40px;
     margin: 30px;
 }

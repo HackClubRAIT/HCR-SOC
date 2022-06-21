@@ -15,7 +15,7 @@ function SearchProjects() {
         </div>
         <div className='projects'>
         {
-            proj.filter((val)=>{
+            proj.filter((val,key)=>{
                 
                 //convert json tech stack to lowercase
                 const lower = val.tech_stack.map((val)=>val.toLowerCase());
