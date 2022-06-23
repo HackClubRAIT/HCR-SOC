@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9192a5d1.css",
+    "main.js": "/static/js/main.958608ab.js",
+    "static/media/InterviewBuddy.png": "/static/media/InterviewBuddy.315b3031878d40c21cd8.png",
+    "static/media/Vijeta Chavhan.png": "/static/media/Vijeta Chavhan.dc02a36fc367136eea15.png",
+    "static/media/homepage vector.svg": "/static/media/homepage vector.895c04e247974fd5bd62.svg",
+    "static/media/Purva Kharsambale.jpeg": "/static/media/Purva Kharsambale.e5860932ef92919867fa.jpeg",
+    "static/media/BHUMIKA JADHAV.jpeg": "/static/media/BHUMIKA JADHAV.8c292d003a9e9154e1b7.jpeg",
+    "static/media/coding.png": "/static/media/coding.ba5b740a36b0be05ae2e.png",
+    "static/media/Siddhi Bhanushali.jpeg": "/static/media/Siddhi Bhanushali.520c578b0c15bf151684.jpeg",
+    "static/media/Kshitija.jpg": "/static/media/Kshitija.47819e96670052df27a9.jpg",
+    "static/media/Saptesh Ahire.jpeg": "/static/media/Saptesh Ahire.1f68ef3bff355bd29dfc.jpeg",
+    "static/media/AMAN ROY.jpeg": "/static/media/AMAN ROY.8f85db9c7c35151fcd75.jpeg",
+    "static/media/girija gupte.jpg": "/static/media/girija gupte.79eea9943ddc0c9c6e90.jpg",
+    "static/media/Chaitali Shetty.jpeg": "/static/media/Chaitali Shetty.fb84a75ade44a40361e6.jpeg",
+    "static/media/MANDAR GAJBHIYE.jpeg": "/static/media/MANDAR GAJBHIYE.8a7a96e4d7153e163232.jpeg",
+    "static/media/hackclubrait-logo.png": "/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png",
+    "static/media/MAYURI GAIKWAD.jpeg": "/static/media/MAYURI GAIKWAD.ae8712ed88a1b597b54f.jpeg",
+    "static/media/arnav rastogi.jpeg": "/static/media/arnav rastogi.2b2f5bc4c919b4decf0f.jpeg",
+    "static/media/handshake.png": "/static/media/handshake.906fe1f07095352eb7b6.png",
+    "static/media/certificate.png": "/static/media/certificate.917aaa74e8400f004101.png",
+    "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
+    "static/media/codepen-KgwYJy.png": "/static/media/codepen-KgwYJy.4a8ac2afb59abdb2c48a.png",
+    "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
+    "index.html": "/index.html",
+    "main.9192a5d1.css.map": "/static/css/main.9192a5d1.css.map",
+    "main.958608ab.js.map": "/static/js/main.958608ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9192a5d1.css",
+    "static/js/main.958608ab.js"
+  ]
+}
