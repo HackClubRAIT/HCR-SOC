@@ -1,5 +1,25 @@
 export const proj=[
     {
+        "name":"Know Your Code",
+        "tech_stack":["Html", "CSS", "JS", "GitHub API", "Gatsby"],
+        "proj_admin":"Manas Gupta ",
+        "repo":"https://github.com/cyberbuddy-io/open-source-contribution-for-beginners",
+        "mentor_mail":"mailto:rspmanas1@gmail.com",
+        "mentor_linkedin":"Https://linkedin.com/in/cyberbuddy-manas",
+        "mentor_github":"",
+        "desc":"Know your code contains codes in many languages with the explanation to each in a readme file. We want to index these codes and create a website using GitHub API."
+    },
+    {
+        "name":"Ezy Parking",
+        "tech_stack":["Python", "HTML", "CSS", "JavaScript", "Machine Learning", "Computer Vision", "IoT" ],
+        "proj_admin":"Prathima Kadari",
+        "repo":"https://github.com/prathimacode-hub/Ezy-Parking",
+        "mentor_mail":"mailto:kadariprathima4@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/prathima-kadari/",
+        "mentor_github":"",
+        "desc":"Ezy Parking is a complete parking management system that applies smarter solutions for short time rental of empty spaces. This portal is designed to helps users find safe, affordable and low cost parking while on a hustle. "
+    },
+    {
         "name":"ML-Crate",
         "tech_stack":["Machine Learning", "Data Science", "Data Analytics", "Python", "Artificial Intelligence"],
         "proj_admin":"Abhishek Sharma",
