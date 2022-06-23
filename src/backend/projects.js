@@ -24,7 +24,7 @@ export const proj=[
             "tech_stack":["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "SCSS"],
             "proj_admin":"Praveen Kumar Purushothaman",
             "repo":"https://github.com/CatsInTech/Rezume",
-            "mentor_mail":"mailto:praveenscience@gmail.com",
+            "mentor_mail":"mailto:hackclubraitsoc@praveen.science",
             "mentor_linkedin":"https://www.linkedin.com/in/praveentech/",
             "mentor_github":"",
             "desc":"Rezume is a free online app for generating resumes without worrying about the styling and formatting."
