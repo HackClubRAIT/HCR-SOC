@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css2?family=Kumar+One+Outline&display=swap');
 
 
 #About{
-    padding: 100px 5%;
+    /* padding: 100px 5%; */
     overflow-x: hidden;
 }
-
+.about{
+    background-color: #b6b5b58f;
+    border-radius: 20px;
+    margin: 0px 2em;
+    padding: 0px 5vw 5vw 5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 .AboutUs{
     width: 100%;
+    text-align: center;
 }
 
 #home_about {
     height: 100%;
     background-color: white;
-    text-align: justify;
     padding: 200px 5%;
     display: flex;
     justify-content: space-between;
@@ -24,10 +29,10 @@
     color: #de0000;
 }
 
-/* .content {
-    min-width: 49%;
-    width: 49%;
-} */
+.AboutUs p{
+   font-size: 1.2rem;
+   /* font-weight: 500; */
+}
 
 #home_vision {
     height: 100%;

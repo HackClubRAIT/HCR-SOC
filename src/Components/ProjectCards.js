@@ -53,10 +53,9 @@ const proj_styles={
   tech:{
     backgroundColor:"#4D96FF", 
     color: "#fdfeff", 
-    margin:"15px 0px 15px 15px", 
+    margin:"10px 0px 0px 10px", 
     // marginBottom:'10px',
-    size:"medium", 
-    fontSize:"0.8em" ,
+    fontSize:"0.7em" ,
     // padding:"10px", 
     // height:"30px",
     borderRadius:"15px",
@@ -79,9 +78,9 @@ export const ProjectCards=(props)=> {
           <div>
           {
             props.tech_stack.map(tech=>
-          <Chip label={tech.toUpperCase()} sx={proj_styles.tech}/>)
+          <Chip label={tech.toUpperCase()} sx={proj_styles.tech} size='small'/>)
           }
-          </div>
+          </div><br/>
           <p style={{fontSize: 20}}>{props.desc}</p><br/>
           <Button variant="outlined" onClick={handleClickOpen}>
             more details
@@ -95,7 +94,7 @@ export const ProjectCards=(props)=> {
               <b>{props.name}</b>
             </BootstrapDialogTitle>
             <DialogContent dividers>
-            <a href={props.mentor_github} target="_blank_" style={{textDecoration:"none"}}>
+            <a href={props.repo} target="_blank_" style={{textDecoration:"none"}}>
             <Button variant="contained" startIcon={<GitHubIcon />} color="primary" sx={{color:"white"}}>
               Repository</Button></a>
               <br/><br/>
@@ -103,7 +102,7 @@ export const ProjectCards=(props)=> {
               <p style={{fontSize:"25px"}}>{props.proj_admin}</p>
               <div className='proj_icons'>
               <a href={props.mentor_mail} style={{color:"grey"}} target="_blank_"><EmailIcon fontSize='large'/></a>
-              <a href={props.mentor_github} style={{color:"black"}} target="_blank_"><GitHubIcon fontSize='large'/></a>
+              {/* <a href={props.mentor_github} style={{color:"black"}} target="_blank_"><GitHubIcon fontSize='large'/></a> */}
               <a href={props.mentor_linkedin} style={{color:"#0a66c2"}} target="_blank_"><LinkedInIcon fontSize='large'/></a></div>
 
             </DialogContent>

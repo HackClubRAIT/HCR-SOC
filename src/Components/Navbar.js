@@ -17,7 +17,7 @@ import {Link,Outlet} from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
 import './NavBar.css';
 
-const pages = ['About','Register','Timeline', 'Team','FAQ', 'Contact Us'];
+const pages = ['About','Register','Timeline',"Sponsors",'Team','FAQ', 'Contact Us'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const NavBar = () => {

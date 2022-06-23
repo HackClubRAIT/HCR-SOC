@@ -1,4 +1,44 @@
 export const proj=[
+    {
+        "name":"ML-Crate",
+        "tech_stack":["Machine Learning", "Data Science", "Data Analytics", "Python", "Artificial Intelligence"],
+        "proj_admin":"Abhishek Sharma",
+        "repo":"https://github.com/abhisheks008/ML-Crate",
+        "mentor_mail":"mailto:sharma.abhishek1282000@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/abhishek-sharma-aa06a9183",
+        "mentor_github":"",
+        "desc":"ML-Crate is a project repo which consists various ML(Machine Learning) projects from beginner level to advanced level"
+    },
+        {
+            "name":"Clone-IT",
+            "tech_stack":["HTML", "CSS", "BOOTSTRAP", "JavaScript",  "SCSS", "REACT"],
+            "proj_admin":"Rayman Kour  Sodhi",
+            "repo":"https://github.com/Rayman-Sodhi/Clone-IT",
+            "mentor_mail":"mailto:raymansodhi28@gmail.com",
+            "mentor_linkedin":"https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/",
+            "mentor_github":"",
+            "desc":"The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design"
+        },
+        {
+            "name":"Rezume",
+            "tech_stack":["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", "SCSS"],
+            "proj_admin":"Praveen Kumar Purushothaman",
+            "repo":"https://github.com/CatsInTech/Rezume",
+            "mentor_mail":"mailto:hackclubraitsoc@praveen.science",
+            "mentor_linkedin":"https://www.linkedin.com/in/praveentech/",
+            "mentor_github":"",
+            "desc":"Rezume is a free online app for generating resumes without worrying about the styling and formatting."
+        },
+        {
+            "name":"Fun with Science",
+            "tech_stack":["REACT", "CSS", "PHP"],
+            "proj_admin":"Amit Kumar Mishra",
+            "repo":"https://github.com/Tech-N-Science/FunwithScience",
+            "mentor_mail":"mailto:akm43300@gmail.com",
+            "mentor_linkedin":"https://linkedin.com/in/amit-kumar-mishra-28122a193",
+            "mentor_github":"",
+            "desc":"This project basically contains calculators and questions of various physics and math topics which is helpful for JEE aspirants."
+        },
         {
             "name":"Embellish",
             "tech_stack":["Html","Css","Javascript"],

@@ -1,19 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
 .register{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .reg_card{
     text-align: center;
     width: 40%;
     padding: 20px;
     margin: 10px;
-    border-top: 3px solid #8e3737;
 }
 .reg_card:hover{
     /* background-color: #FFC300; */
-    transform: translateY(-10px);
-    box-shadow: 0px 6px 8px 0px #a7a3a3; 
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 6px 0px #a7a3a3; 
 }
 @media (max-width: 768px){
     .register {
