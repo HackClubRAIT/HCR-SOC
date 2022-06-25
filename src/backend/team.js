@@ -82,5 +82,12 @@ export const team=[
         "linkedin":"https://www.linkedin.com/in/aman-roy-00428b213/",
         "github":"https://github.com/girija0707",
         "images":"AMAN ROY.jpeg"
-    }
+    },
+    // {
+    //     "name":"",
+    //     "desig":"",
+    //     "linkedin":"",
+    //     "github":"",
+    //     "images":""
+    // },
 ]
