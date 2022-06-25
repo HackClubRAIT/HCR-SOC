@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2abe6363.css",
-    "main.js": "/static/js/main.b4b77fc1.js",
+    "main.js": "/static/js/main.1c9ad045.js",
     "static/media/Praveen.png": "/static/media/Praveen.4ef931faffee8eab4d01.png",
     "static/media/InterviewBuddy.png": "/static/media/InterviewBuddy.315b3031878d40c21cd8.png",
     "static/media/Vijeta Chavhan.png": "/static/media/Vijeta Chavhan.dc02a36fc367136eea15.png",
@@ -26,10 +26,10 @@
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
     "index.html": "/index.html",
     "main.2abe6363.css.map": "/static/css/main.2abe6363.css.map",
-    "main.b4b77fc1.js.map": "/static/js/main.b4b77fc1.js.map"
+    "main.1c9ad045.js.map": "/static/js/main.1c9ad045.js.map"
   },
   "entrypoints": [
     "static/css/main.2abe6363.css",
-    "static/js/main.b4b77fc1.js"
+    "static/js/main.1c9ad045.js"
   ]
 }
