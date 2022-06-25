@@ -43,7 +43,7 @@ const NavBar = () => {
     <AppBar position="fixed" >
       <Container maxWidth="xl" className="navbar sticky">
         <Toolbar disableGutters>
-          <a href="/home"><img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px"}} alt="logo"/></a>
+          <a href="#/Home"><img sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} src={logo} style={{width:"50px"}} alt="logo"/></a>
           {/* <Typography
             variant="h6"
             noWrap
