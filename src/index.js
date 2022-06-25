@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import ReactDOM from 'react-dom';
 import Projects from './Components/Projects';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 import Home from './Components/Home';
 import 'aos/dist/aos.css';
 import PageNotFound from './Components/PageNotFound'
 ReactDOM.render(
   <React.StrictMode>
     <div>
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
             <Route path="Home" element={<Home />} />
             <Route path="/" element={<Home />} />
@@ -17,7 +17,7 @@ ReactDOM.render(
             <Route path="*" component={PageNotFound} />
 
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
       {/* <NavBar />
       <Projects/> */}
       </div>

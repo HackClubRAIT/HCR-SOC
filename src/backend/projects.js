@@ -1,4 +1,54 @@
 export const proj=[
+    // {
+    //     "name":"",
+    //     "tech_stack":[],
+    //     "proj_admin":"",
+    //     "repo":"",
+    //     "mentor_mail":"mailto:",
+    //     "mentor_linkedin":"",
+    //     "mentor_github":"",
+    //     "desc":""
+    // },
+    // {
+    //     "name":"Full Stack Website with React",
+    //     "tech_stack":["React" , "express"],
+    //     "proj_admin":"Rohan Kulkarni",
+    //     "repo":"",
+    //     "mentor_mail":"mailto:",
+    //     "mentor_linkedin":"",
+    //     "mentor_github":"",
+    //     "desc":"In this project we will create a full stack web project in which we will create our own backend and link it with api to frontend which will be make in react."
+    // },
+    {
+        "name":"Bug Busters Community Website ",
+        "tech_stack":["Html","css","js"],
+        "proj_admin":"Bug Busters",
+        "repo":"https://github.com/BugBustersCommunity/website",
+        "mentor_mail":"mailto:bugbusterscommunity@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/company/bug-busters1/",
+        "mentor_github":"",
+        "desc":"It is the official website of Bug Busters comunity."
+    },
+    {
+        "name":"CodeSetGo Website",
+        "tech_stack":["Html", "CSS", "JavaScript", "Bootstrap" ],
+        "proj_admin":"CodeSetGo",
+        "repo":"https://github.com/agamjotsingh18/codesetgo-website",
+        "mentor_mail":"mailto:codesetgo@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/company/codesetgo",
+        "mentor_github":"",
+        "desc":"CodeSetGo is a place for Tech Enthusiasts to learn the latest technology in the comfort and convenience of their homes!"
+    },
+    {
+        "name":"Certificate generator",
+        "tech_stack":["python", "streamlit" , "opencv", "pil"],
+        "proj_admin":"Anirudh soni",
+        "repo":"https://github.com/HeyAnirudh/certificates_streamlit",
+        "mentor_mail":"mailto:anirudh90hyd@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/heyanirudh/",
+        "mentor_github":"",
+        "desc":"Making certificates is tiresome job and there are few online certificate making apps but they come at a subscription, why not create our own certificate app ."
+    },
     {
         "name":"Know Your Code",
         "tech_stack":["Html", "CSS", "JS", "GitHub API", "Gatsby"],
