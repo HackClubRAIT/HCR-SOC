@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2abe6363.css",
-    "main.js": "/static/js/main.1c9ad045.js",
+    "main.css": "/static/css/main.ff334b58.css",
+    "main.js": "/static/js/main.40f7a570.js",
     "static/media/Praveen.png": "/static/media/Praveen.4ef931faffee8eab4d01.png",
-    "static/media/InterviewBuddy.png": "/static/media/InterviewBuddy.315b3031878d40c21cd8.png",
     "static/media/Vijeta Chavhan.png": "/static/media/Vijeta Chavhan.dc02a36fc367136eea15.png",
+    "static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.png": "/static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.de5c10b7b91de21abb33.png",
     "static/media/homepage vector.svg": "/static/media/homepage vector.895c04e247974fd5bd62.svg",
     "static/media/Purva Kharsambale.jpeg": "/static/media/Purva Kharsambale.e5860932ef92919867fa.jpeg",
     "static/media/BHUMIKA JADHAV.jpeg": "/static/media/BHUMIKA JADHAV.8c292d003a9e9154e1b7.jpeg",
@@ -13,23 +13,33 @@
     "static/media/Kshitija.jpg": "/static/media/Kshitija.47819e96670052df27a9.jpg",
     "static/media/Saptesh Ahire.jpeg": "/static/media/Saptesh Ahire.1f68ef3bff355bd29dfc.jpeg",
     "static/media/AMAN ROY.jpeg": "/static/media/AMAN ROY.8f85db9c7c35151fcd75.jpeg",
+    "static/media/1.jpg": "/static/media/1.fcbc2180ca878a19606e.jpg",
     "static/media/girija gupte.jpg": "/static/media/girija gupte.79eea9943ddc0c9c6e90.jpg",
+    "static/media/InterviewBuddy.png": "/static/media/InterviewBuddy.0cb3ec45a942a6d706e4.png",
+    "static/media/3.png": "/static/media/3.138fd5bdb9c35af5d5f2.png",
     "static/media/Chaitali Shetty.jpeg": "/static/media/Chaitali Shetty.fb84a75ade44a40361e6.jpeg",
     "static/media/MANDAR GAJBHIYE.jpeg": "/static/media/MANDAR GAJBHIYE.8a7a96e4d7153e163232.jpeg",
+    "static/media/2.jpg": "/static/media/2.ffa84d06c0da98870fb7.jpg",
     "static/media/hackclubrait-logo.png": "/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png",
+    "static/media/title.png": "/static/media/title.dd2891ed66ca31624234.png",
     "static/media/MAYURI GAIKWAD.jpeg": "/static/media/MAYURI GAIKWAD.ae8712ed88a1b597b54f.jpeg",
     "static/media/arnav rastogi.jpeg": "/static/media/arnav rastogi.2b2f5bc4c919b4decf0f.jpeg",
+    "static/media/Logo.png": "/static/media/Logo.840df391bcd378740703.png",
+    "static/media/xyz-logo-color.png": "/static/media/xyz-logo-color.5c07918ab5b775491e24.png",
+    "static/media/IMG-20210611-WA0028 - CodeSetGo Community.jpg": "/static/media/IMG-20210611-WA0028 - CodeSetGo Community.1562b4ee08ee81d3e387.jpg",
     "static/media/handshake.png": "/static/media/handshake.906fe1f07095352eb7b6.png",
+    "static/media/domain.png": "/static/media/domain.1d55fb2f7e34e5b6080c.png",
     "static/media/certificate.png": "/static/media/certificate.917aaa74e8400f004101.png",
-    "static/media/certopus_original.png": "/static/media/certopus_original.17a6a81b9d6fc98bd3bc.png",
+    "static/media/certopus_original.png": "/static/media/certopus_original.08935074d8775b87f0c6.png",
+    "static/media/HCS logo - Mrudul Kolambe.png": "/static/media/HCS logo - Mrudul Kolambe.1a695988cbbaea4336e1.png",
     "static/media/codepen-KgwYJy.png": "/static/media/codepen-KgwYJy.4a8ac2afb59abdb2c48a.png",
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
     "index.html": "/index.html",
-    "main.2abe6363.css.map": "/static/css/main.2abe6363.css.map",
-    "main.1c9ad045.js.map": "/static/js/main.1c9ad045.js.map"
+    "main.ff334b58.css.map": "/static/css/main.ff334b58.css.map",
+    "main.40f7a570.js.map": "/static/js/main.40f7a570.js.map"
   },
   "entrypoints": [
-    "static/css/main.2abe6363.css",
-    "static/js/main.1c9ad045.js"
+    "static/css/main.ff334b58.css",
+    "static/js/main.40f7a570.js"
   ]
 }
