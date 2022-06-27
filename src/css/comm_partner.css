@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Satisfy&family=Source+Sans+Pro');
+#comm_partner{
+    padding-top: 50px;
+}
+.comm_partner{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin: 30px;
+    font-family: 'Source Sans Pro','cursive';
+    justify-content: center;
+
+}
+.comm_img{
+    display: flex;
+    justify-content: center;
+    transition: transform .2s;
+}
+.comm_img :hover{
+    transform: scale(1.2);
+}
+.partCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

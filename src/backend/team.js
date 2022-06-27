@@ -83,11 +83,11 @@ export const team=[
         "github":"https://github.com/girija0707",
         "images":"AMAN ROY.jpeg"
     },
-    // {
-    //     "name":"",
-    //     "desig":"",
-    //     "linkedin":"",
-    //     "github":"",
-    //     "images":""
-    // },
+    {
+        "name":"Praveen Kumar Purushothaman",
+        "desig":"",
+        "linkedin":"https://www.linkedin.com/in/praveentech/",
+        "github":"",
+        "images":"Praveen.png"
+    },
 ]

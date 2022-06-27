@@ -11,16 +11,20 @@
         height:50px;
         margin-right: 20px;
     }
+    
 }
 @media (max-width:751px) {
     .sp_image{
-        width:80vw !important;
+        width:60vw !important;
     }
     .spons_img{
     text-align:center;
     }
     .spons_icon{
         display: none;
+    }
+    .spons_grid{
+        padding-top: 0!important;
     }
 }
 .spons_section{
@@ -49,6 +53,11 @@
     margin-top:10px
 }
 .sp_image{
-width:25vw;
-height:auto
+width:300px;
+height: auto ;
+transition: transform .2s;
+
+}
+.sp_image:hover{
+    transform: scale(1.1);
 }

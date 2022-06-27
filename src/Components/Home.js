@@ -14,6 +14,7 @@ import Faq from './Faq'
 import Contact from './Contact'
 import Team from './Team'
 import Register from './Register';
+import Community from './Community';
 function Home() {
   const mobile=useMediaQuery('(max-width:650px)')
   let buttonSize;

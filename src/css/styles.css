@@ -7,6 +7,9 @@
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr)) !important;
         margin: 20px;
     }
+    .headings{
+        font-size: 2rem!important;
+    }
 }
 body{
     background-color: var(--light-grey);
