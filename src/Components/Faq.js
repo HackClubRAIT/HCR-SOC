@@ -21,7 +21,7 @@ const faqList = [
   {
     id: 4,
     question: "Can I register as both participant and project admin?",
-    answer: "No, you can either register as a participant or project admin.",
+    answer: "Yes, you can participate but you cannot contribute to your own project.",
   },
   {
     id: 5,

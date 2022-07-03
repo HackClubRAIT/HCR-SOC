@@ -9,16 +9,56 @@ export const proj=[
     //     "mentor_github":"",
     //     "desc":""
     // },
-    // {
-    //     "name":"Full Stack Website with React",
-    //     "tech_stack":["React" , "express"],
-    //     "proj_admin":"Rohan Kulkarni",
-    //     "repo":"",
-    //     "mentor_mail":"mailto:",
-    //     "mentor_linkedin":"",
-    //     "mentor_github":"",
-    //     "desc":"In this project we will create a full stack web project in which we will create our own backend and link it with api to frontend which will be make in react."
-    // },
+    {
+        "name":"Sleepometer",
+        "tech_stack":["Android","Java","Firebase"],
+        "proj_admin":"Amit Maity",
+        "repo":"https://github.com/maityamit/Sleepometer-Android-App",
+        "mentor_mail":"mailto:maity.amit.college@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/maityamit/",
+        "mentor_github":"",
+        "desc":"Sleepometer Android App , measure your sleep and track. This will basically measure your sleep, and represent the overall day-wise sleep hours and the last 7 days' average sleep also can measure."
+    },
+    {
+        "name":"TIC TAC TOE",
+        "tech_stack":["Kotlin", "XML"],
+        "proj_admin":"Utkarsh Saxena",
+        "repo":"https://github.com/utkarsh006/TIC-TAC-TOE",
+        "mentor_mail":"mailto:utkarshsaxena900@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/utkarsh06/",
+        "mentor_github":"",
+        "desc":"A two-player game where players one and two have to fill the grids of 3*3 with X and 0 respectively and the winner would be declared when all the grids are filled. The project operates in offline mode and the player can both play as Singleplayer and Multiplayer."
+    },
+    {
+        "name":"Covid-19 Awareness Website",
+        "tech_stack":["Html","Css","JavaScript" ],
+        "proj_admin":"Sulagna Dutta Roy ",
+        "repo":"https://github.com/Sulagna-Dutta-Roy/Covid19-website",
+        "mentor_mail":"mailto:sulagnadutta65@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/sulagna-dutta-roy-26421b201",
+        "mentor_github":"",
+        "desc":"All the details of Covid-19 is given in the website what people should do or should not do ,also added the facts, spreading issues and news links are given."
+    },
+    {
+        "name":"DevGeeks",
+        "tech_stack":["HTML", "CSS", "JavaScript"],
+        "proj_admin":"Pranjay Poddar",
+        "repo":"https://github.com/pranjay-poddar/Dev-Geeks",
+        "mentor_mail":"mailto:pranjaypoddar@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/pranjay-poddar/",
+        "mentor_github":"",
+        "desc":"A collection of vibrant frontend web development projects, web development mini-projects, angular/react components based projects, CSS animations, JavaScript games and much more!"
+    },
+    {
+        "name":"Xecute - My Task planner",
+        "tech_stack":["HTML", "CSS", "JavaScript", "Bootstrap", "Php", "MySQL"],
+        "proj_admin":"Tejal Khade",
+        "repo":"https://github.com/TejalKhade28/Xecute",
+        "mentor_mail":"mailto:tejalrk2000@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/tejal-khade-a379381b0",
+        "mentor_github":"",
+        "desc":"Xecute is a website for managing our daily tasks and planning them accordingly by setting the priority of the tasks.In short it is a day to day task manager."
+    },
     {
         "name":"Bug Busters Community Website ",
         "tech_stack":["Html","css","js"],
