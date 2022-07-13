@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff334b58.css",
-    "main.js": "/static/js/main.d02ad8d2.js",
+    "main.js": "/static/js/main.ad667095.js",
     "static/media/Praveen.png": "/static/media/Praveen.4ef931faffee8eab4d01.png",
     "static/media/Vijeta Chavhan.png": "/static/media/Vijeta Chavhan.dc02a36fc367136eea15.png",
     "static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.png": "/static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.de5c10b7b91de21abb33.png",
@@ -36,10 +36,10 @@
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
     "index.html": "/index.html",
     "main.ff334b58.css.map": "/static/css/main.ff334b58.css.map",
-    "main.d02ad8d2.js.map": "/static/js/main.d02ad8d2.js.map"
+    "main.ad667095.js.map": "/static/js/main.ad667095.js.map"
   },
   "entrypoints": [
     "static/css/main.ff334b58.css",
-    "static/js/main.d02ad8d2.js"
+    "static/js/main.ad667095.js"
   ]
 }
