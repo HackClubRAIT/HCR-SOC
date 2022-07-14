@@ -60,16 +60,6 @@ export const proj=[
         "desc":"To create end-to-end mobile interactive templates that other developers can use during their Flutter development journey. Refinement of pre-existing UI. Work on interactions and effects."
     },
     {
-        "name":"Password Manager",
-        "tech_stack":["Kotlin"],
-        "proj_admin":"Binay Shaw",
-        "repo":"https://github.com/binayshaw7777/Password-Manager",
-        "mentor_mail":"mailto:binayshaw7777@gmail.com",
-        "mentor_linkedin":"https://www.linkedin.com/in/binayshaw7777/",
-        "mentor_github":"",
-        "desc":"Basically a simple and clean password manager with complete security including 2FA, biometric and Encryption, and so on."
-    },
-    {
         "name":"LeetCode Grind",
         "tech_stack":["C++"],
         "proj_admin":"Utkarsh Saxena",
