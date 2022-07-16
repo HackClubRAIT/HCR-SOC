@@ -10,6 +10,16 @@ export const proj=[
     //     "desc":""
     // },
     {
+        "name":"Product Landing",
+        "tech_stack":["Html","CSS","Tailwindcss","Javascript"],
+        "proj_admin":"Rohan Kulkarni",
+        "repo":"https://github.com/rohan-kulkarni-25/product-landing-page",
+        "mentor_mail":"mailto:rohank2502@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/rohan-k-2502",
+        "mentor_github":"",
+        "desc":"Landing Page of Product. This project is developed under program of Hack Club Rait Summer of Code"
+    },
+    {
         "name":"DSA and Competitive Coding ",
         "tech_stack":["C++"],
         "proj_admin":"Aarya Ahjolia",
@@ -148,16 +158,6 @@ export const proj=[
         "mentor_linkedin":"https://www.linkedin.com/in/heyanirudh/",
         "mentor_github":"",
         "desc":"Making certificates is tiresome job and there are few online certificate making apps but they come at a subscription, why not create our own certificate app ."
-    },
-    {
-        "name":"Know Your Code",
-        "tech_stack":["Html", "CSS", "JS", "GitHub API", "Gatsby"],
-        "proj_admin":"Manas Gupta ",
-        "repo":"https://github.com/cyberbuddy-io/open-source-contribution-for-beginners",
-        "mentor_mail":"mailto:rspmanas1@gmail.com",
-        "mentor_linkedin":"Https://linkedin.com/in/cyberbuddy-manas",
-        "mentor_github":"",
-        "desc":"Know your code contains codes in many languages with the explanation to each in a readme file. We want to index these codes and create a website using GitHub API."
     },
     {
         "name":"Ezy Parking",
