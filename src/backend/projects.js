@@ -10,6 +10,16 @@ export const proj=[
     //     "desc":""
     // },
     {
+        "name":"E-Learning",
+        "tech_stack":["HTML", "CSS", "JS", "Bootstrap", "PHP", "SQL"],
+        "proj_admin":"Sahitya Roy",
+        "repo":"https://github.com/SahityaRoy/E-Learning-freesite",
+        "mentor_mail":"mailto:29roysonu@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/company/eduhub-community/",
+        "mentor_github":"",
+        "desc":"Free resources in one place students can access all the resource through this site."
+    },
+    {
         "name":"Product Landing",
         "tech_stack":["Html","CSS","Tailwindcss","Javascript"],
         "proj_admin":"Rohan Kulkarni",
