@@ -10,6 +10,26 @@ export const proj=[
     //     "desc":""
     // },
     {
+        "name":"Web3.0-World",
+        "tech_stack":['Truffle' ,"ganache" ,"Solidity", "React" , "js" ,"next" , "css" , "html" , "hardhat" , "ethers.js" , "web3.js" ],
+        "proj_admin":"Vikash Kumar Yadav",
+        "repo":"https://github.com/Vikash-8090-Yadav/Web3.0-World",
+        "mentor_mail":"mailto:yadav621gzp@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+        "mentor_github":"",
+        "desc":"This repo have all the dapps, dao, defi made using web3, truffle, hardhat, ganache and smart contract as well it contains the frontend part also. All web3 interested one can contribute in this."
+    },
+    {
+        "name":"Solidity-Pathshala",
+        "tech_stack":["Solidity","Remix ide","metamask","Ganache" ],
+        "proj_admin":"Vikash Kumar Yadav",
+        "repo":"https://github.com/Vikash-8090-Yadav/Solidity-Pathshala",
+        "mentor_mail":"mailto:yadav621gzp@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+        "mentor_github":"",
+        "desc":"This repo have all the smart contract based code and all the beginner who is learning blockchain as well as solidity can contribute in this."
+    },
+    {
         "name":"E-Learning",
         "tech_stack":["HTML", "CSS", "JS", "Bootstrap", "PHP", "SQL"],
         "proj_admin":"Sahitya Roy",

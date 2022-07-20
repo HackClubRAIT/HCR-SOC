@@ -14,6 +14,11 @@ export const comm_part=[
         "linkedin":"https://www.linkedin.com/company/eduhub-community/",
         "images":"3.png"
     },
+    {
+        "name":"CodeSetGo",
+        "linkedin":"https://www.linkedin.com/company/codesetgo",
+        "images":"IMG-20210611-WA0028 - CodeSetGo Community.jpg"
+    },
     
     // {
     //     "name":"",
