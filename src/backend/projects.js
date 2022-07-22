@@ -10,6 +10,36 @@ export const proj=[
     //     "desc":""
     // },
     {
+        "name":"E-Coolie",
+        "tech_stack":["FLUTTER" , "DART", "FIREBASE"],
+        "proj_admin":"Piyush Kumar",
+        "repo":"https://github.com/piyushkumar12111111/E-COOLIE",
+        "mentor_mail":"mailto:sarojkumarroy658@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/piyush-kumar-806903228/",
+        "mentor_github":"",
+        "desc":"When we are Travelling Through Railways, we book our ticket easily through online mode, but Huge number of People require a coolie who can help them to carry there load. With the help of this application We can book them , we can track them , pay them The correct amount (not the hiked Prices) , and give them the rating."
+    },
+    {
+        "name":"Stock calculator",
+        "tech_stack":["Html","css", "Vanillajs"],
+        "proj_admin":"Priyanshu Mundra",
+        "repo":"https://github.com/Spyder15/Stock-Calculator",
+        "mentor_mail":"mailto:mundrapriyanshu15@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/priyanshu-mundra-b66626216",
+        "mentor_github":"",
+        "desc":"This app is created using vanilla js which shows how much profit or loss we are having on our stocks. User need to enter stock purchase price per unit, stock current price and stock units/quantity. App will show loss/profit in % and absolute amount."
+    },
+    {
+        "name":"Leetcode Contests",
+        "tech_stack":["C++", "Java"],
+        "proj_admin":"Nishkarsh Saxena",
+        "repo":"https://github.com/nishkarsh800/LeetCode-Contests",
+        "mentor_mail":"mailto:nishkarshsaxena800@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/nishkarsh800/",
+        "mentor_github":"",
+        "desc":"This Repo contains the solution for all Contests (Weekly & Biweekly) taken place till date."
+    },
+    {
         "name":"Web3.0-World",
         "tech_stack":['Truffle' ,"ganache" ,"Solidity", "React" , "js" ,"next" , "css" , "html" , "hardhat" , "ethers.js" , "web3.js" ],
         "proj_admin":"Vikash Kumar Yadav",
