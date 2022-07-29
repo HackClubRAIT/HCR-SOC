@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff334b58.css",
-    "main.js": "/static/js/main.ac5bbb03.js",
+    "main.js": "/static/js/main.67befbcf.js",
     "static/media/Praveen.png": "/static/media/Praveen.4ef931faffee8eab4d01.png",
     "static/media/Vijeta Chavhan.png": "/static/media/Vijeta Chavhan.dc02a36fc367136eea15.png",
     "static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.png": "/static/media/CatsInTech-TN-720-min - Praveen Kumar Purushothaman.de5c10b7b91de21abb33.png",
@@ -19,6 +19,7 @@
     "static/media/3.png": "/static/media/3.138fd5bdb9c35af5d5f2.png",
     "static/media/Chaitali Shetty.jpeg": "/static/media/Chaitali Shetty.fb84a75ade44a40361e6.jpeg",
     "static/media/MANDAR GAJBHIYE.jpeg": "/static/media/MANDAR GAJBHIYE.8a7a96e4d7153e163232.jpeg",
+    "static/media/Monish.jpeg": "/static/media/Monish.1b3207533a998f76a166.jpeg",
     "static/media/2.jpg": "/static/media/2.ffa84d06c0da98870fb7.jpg",
     "static/media/hackclubrait-logo.png": "/static/media/hackclubrait-logo.bd4b56eb391b58b8a921.png",
     "static/media/title.png": "/static/media/title.dd2891ed66ca31624234.png",
@@ -36,10 +37,10 @@
     "static/media/gmail.png": "/static/media/gmail.d765005ce9d4caa3d69e.png",
     "index.html": "/index.html",
     "main.ff334b58.css.map": "/static/css/main.ff334b58.css.map",
-    "main.ac5bbb03.js.map": "/static/js/main.ac5bbb03.js.map"
+    "main.67befbcf.js.map": "/static/js/main.67befbcf.js.map"
   },
   "entrypoints": [
     "static/css/main.ff334b58.css",
-    "static/js/main.ac5bbb03.js"
+    "static/js/main.67befbcf.js"
   ]
 }
