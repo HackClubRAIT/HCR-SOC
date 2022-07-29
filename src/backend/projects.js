@@ -213,7 +213,7 @@ export const proj=[
         "name":"Certificate generator",
         "tech_stack":["python", "streamlit" , "opencv", "pil"],
         "proj_admin":"Anirudh soni",
-        "repo":"https://github.com/HeyAnirudh/certificates_streamlit",
+        "repo":"https://github.com/HeyAnirudh/Certificate-Generator",
         "mentor_mail":"mailto:anirudh90hyd@gmail.com",
         "mentor_linkedin":"https://www.linkedin.com/in/heyanirudh/",
         "mentor_github":"",

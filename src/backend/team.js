@@ -85,9 +85,16 @@ export const team=[
     },
     {
         "name":"Praveen Kumar Purushothaman",
-        "desig":"",
+        "desig":"Leaderboard Specialist",
         "linkedin":"https://www.linkedin.com/in/praveentech/",
         "github":"",
         "images":"Praveen.png"
+    },
+    {
+        "name":"Monish Basaniwal",
+        "desig":"Leaderboard Specialist",
+        "linkedin":"https://www.linkedin.com/in/monishbasaniwal/",
+        "github":"",
+        "images":"Monish.jpeg"
     },
 ]
