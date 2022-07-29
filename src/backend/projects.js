@@ -9,16 +9,186 @@ export const proj=[
     //     "mentor_github":"",
     //     "desc":""
     // },
-    // {
-    //     "name":"Full Stack Website with React",
-    //     "tech_stack":["React" , "express"],
-    //     "proj_admin":"Rohan Kulkarni",
-    //     "repo":"",
-    //     "mentor_mail":"mailto:",
-    //     "mentor_linkedin":"",
-    //     "mentor_github":"",
-    //     "desc":"In this project we will create a full stack web project in which we will create our own backend and link it with api to frontend which will be make in react."
-    // },
+    {
+        "name":"E-Coolie",
+        "tech_stack":["FLUTTER" , "DART", "FIREBASE"],
+        "proj_admin":"Piyush Kumar",
+        "repo":"https://github.com/piyushkumar12111111/E-COOLIE",
+        "mentor_mail":"mailto:sarojkumarroy658@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/piyush-kumar-806903228/",
+        "mentor_github":"",
+        "desc":"When we are Travelling Through Railways, we book our ticket easily through online mode, but Huge number of People require a coolie who can help them to carry there load. With the help of this application We can book them , we can track them , pay them The correct amount (not the hiked Prices) , and give them the rating."
+    },
+    {
+        "name":"Stock calculator",
+        "tech_stack":["Html","css", "Vanillajs"],
+        "proj_admin":"Priyanshu Mundra",
+        "repo":"https://github.com/Spyder15/Stock-Calculator",
+        "mentor_mail":"mailto:mundrapriyanshu15@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/priyanshu-mundra-b66626216",
+        "mentor_github":"",
+        "desc":"This app is created using vanilla js which shows how much profit or loss we are having on our stocks. User need to enter stock purchase price per unit, stock current price and stock units/quantity. App will show loss/profit in % and absolute amount."
+    },
+    {
+        "name":"Leetcode Contests",
+        "tech_stack":["C++", "Java"],
+        "proj_admin":"Nishkarsh Saxena",
+        "repo":"https://github.com/nishkarsh800/LeetCode-Contests",
+        "mentor_mail":"mailto:nishkarshsaxena800@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/nishkarsh800/",
+        "mentor_github":"",
+        "desc":"This Repo contains the solution for all Contests (Weekly & Biweekly) taken place till date."
+    },
+    {
+        "name":"Web3.0-World",
+        "tech_stack":['Truffle' ,"ganache" ,"Solidity", "React" , "js" ,"next" , "css" , "html" , "hardhat" , "ethers.js" , "web3.js" ],
+        "proj_admin":"Vikash Kumar Yadav",
+        "repo":"https://github.com/Vikash-8090-Yadav/Web3.0-World",
+        "mentor_mail":"mailto:yadav621gzp@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+        "mentor_github":"",
+        "desc":"This repo have all the dapps, dao, defi made using web3, truffle, hardhat, ganache and smart contract as well it contains the frontend part also. All web3 interested one can contribute in this."
+    },
+    {
+        "name":"Solidity-Pathshala",
+        "tech_stack":["Solidity","Remix ide","metamask","Ganache" ],
+        "proj_admin":"Vikash Kumar Yadav",
+        "repo":"https://github.com/Vikash-8090-Yadav/Solidity-Pathshala",
+        "mentor_mail":"mailto:yadav621gzp@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+        "mentor_github":"",
+        "desc":"This repo have all the smart contract based code and all the beginner who is learning blockchain as well as solidity can contribute in this."
+    },
+    {
+        "name":"E-Learning",
+        "tech_stack":["HTML", "CSS", "JS", "Bootstrap", "PHP", "SQL"],
+        "proj_admin":"Sahitya Roy",
+        "repo":"https://github.com/SahityaRoy/E-Learning-freesite",
+        "mentor_mail":"mailto:29roysonu@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/company/eduhub-community/",
+        "mentor_github":"",
+        "desc":"Free resources in one place students can access all the resource through this site."
+    },
+    {
+        "name":"Product Landing",
+        "tech_stack":["Html","CSS","Tailwindcss","Javascript"],
+        "proj_admin":"Rohan Kulkarni",
+        "repo":"https://github.com/rohan-kulkarni-25/product-landing-page",
+        "mentor_mail":"mailto:rohank2502@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/rohan-k-2502",
+        "mentor_github":"",
+        "desc":"Landing Page of Product. This project is developed under program of Hack Club Rait Summer of Code"
+    },
+    {
+        "name":"DSA and Competitive Coding ",
+        "tech_stack":["C++"],
+        "proj_admin":"Aarya Ahjolia",
+        "repo":"https://github.com/aaryahjolia/dsa_competitive-coding",
+        "mentor_mail":"mailto:ap5709141@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/aaryaahjolia/",
+        "mentor_github":"",
+        "desc":"The repository contains some codes of DSA that helps students to crack the interview of tech companies."
+    },
+    {
+        "name":"Data Structure & Algorithm",
+        "tech_stack":["dsa", "algorithm", "java", "c", "c++"],
+        "proj_admin":"Aritra Das",
+        "repo":"https://github.com/aritra-tech/Data-Structure-Algorithm",
+        "mentor_mail":"mailto:aritrarick2002@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/aritra-das-/",
+        "mentor_github":"",
+        "desc":"An Open-Source repository that contains all the Data Structures and Algorithms concepts and their implementation, programming questions and Interview questions."
+    },
+    {
+        "name":"PollItUp",
+        "tech_stack":["ReactJS", "ChakraUI", "MongoDB" ],
+        "proj_admin":"Agamjot Singh",
+        "repo":"https://github.com/agamjotsingh18/pollitup",
+        "mentor_mail":"mailto:agamjotsingh1801@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/agamjot-singh",
+        "mentor_github":"",
+        "desc":"PollItUp is an WebApp for Teachers, members of the government, and even concerned citizens can launch polls about problems they are facing to get opinions on the best method to approach the problem."    
+    },
+    {
+        "name":"InstaStore",
+        "tech_stack":["Python"],
+        "proj_admin":"Rakesh Roshan",
+        "repo":"https://github.com/Rakesh9100/InstaStore",
+        "mentor_mail":"mailto:roshanrakesh7362@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/rakesh-roshan-9100",
+        "mentor_github":"",
+        "desc":"InstaStore is a python coded script to download Photos & Videos from Instagram without any API access."
+    },
+    {
+        "name":"Flutter UI Templates",
+        "tech_stack":["Flutter", "Dart"],
+        "proj_admin":"Pavan Bhadane",
+        "repo":"https://github.com/The-Robotics-Forum/flutter-ui-templates",
+        "mentor_mail":"mailto:trf.robosoft@vit.edu",
+        "mentor_linkedin":"https://www.linkedin.com/in/pavan-bhadane-033b26205/",
+        "mentor_github":"",
+        "desc":"To create end-to-end mobile interactive templates that other developers can use during their Flutter development journey. Refinement of pre-existing UI. Work on interactions and effects."
+    },
+    {
+        "name":"LeetCode Grind",
+        "tech_stack":["C++"],
+        "proj_admin":"Utkarsh Saxena",
+        "repo":"https://github.com/utkarsh006/LeetCode-Grind",
+        "mentor_mail":"mailto:utkarshsaxena900@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/utkarsh06/",
+        "mentor_github":"",
+        "desc":"This Repo is a one way solution to ace your Technical Interviews and crack your dream Job by upsolving LeetCode standard problems."
+    },
+    {
+        "name":"Sleepometer",
+        "tech_stack":["Android","Java","Firebase"],
+        "proj_admin":"Amit Maity",
+        "repo":"https://github.com/maityamit/Sleepometer-Android-App",
+        "mentor_mail":"mailto:maity.amit.college@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/maityamit/",
+        "mentor_github":"",
+        "desc":"Sleepometer Android App , measure your sleep and track. This will basically measure your sleep, and represent the overall day-wise sleep hours and the last 7 days' average sleep also can measure."
+    },
+    {
+        "name":"TIC TAC TOE",
+        "tech_stack":["Kotlin", "XML"],
+        "proj_admin":"Utkarsh Saxena",
+        "repo":"https://github.com/utkarsh006/TIC-TAC-TOE",
+        "mentor_mail":"mailto:utkarshsaxena900@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/utkarsh06/",
+        "mentor_github":"",
+        "desc":"A two-player game where players one and two have to fill the grids of 3*3 with X and 0 respectively and the winner would be declared when all the grids are filled. The project operates in offline mode and the player can both play as Singleplayer and Multiplayer."
+    },
+    {
+        "name":"Covid-19 Awareness Website",
+        "tech_stack":["Html","Css","JavaScript" ],
+        "proj_admin":"Sulagna Dutta Roy ",
+        "repo":"https://github.com/Sulagna-Dutta-Roy/Covid19-website",
+        "mentor_mail":"mailto:sulagnadutta65@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/sulagna-dutta-roy-26421b201",
+        "mentor_github":"",
+        "desc":"All the details of Covid-19 is given in the website what people should do or should not do ,also added the facts, spreading issues and news links are given."
+    },
+    {
+        "name":"DevGeeks",
+        "tech_stack":["HTML", "CSS", "JavaScript"],
+        "proj_admin":"Pranjay Poddar",
+        "repo":"https://github.com/pranjay-poddar/Dev-Geeks",
+        "mentor_mail":"mailto:pranjaypoddar@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/pranjay-poddar/",
+        "mentor_github":"",
+        "desc":"A collection of vibrant frontend web development projects, web development mini-projects, angular/react components based projects, CSS animations, JavaScript games and much more!"
+    },
+    {
+        "name":"Xecute - My Task planner",
+        "tech_stack":["HTML", "CSS", "JavaScript", "Bootstrap", "Php", "MySQL"],
+        "proj_admin":"Tejal Khade",
+        "repo":"https://github.com/TejalKhade28/Xecute",
+        "mentor_mail":"mailto:tejalrk2000@gmail.com",
+        "mentor_linkedin":"https://www.linkedin.com/in/tejal-khade-a379381b0",
+        "mentor_github":"",
+        "desc":"Xecute is a website for managing our daily tasks and planning them accordingly by setting the priority of the tasks.In short it is a day to day task manager."
+    },
     {
         "name":"Bug Busters Community Website ",
         "tech_stack":["Html","css","js"],
@@ -48,16 +218,6 @@ export const proj=[
         "mentor_linkedin":"https://www.linkedin.com/in/heyanirudh/",
         "mentor_github":"",
         "desc":"Making certificates is tiresome job and there are few online certificate making apps but they come at a subscription, why not create our own certificate app ."
-    },
-    {
-        "name":"Know Your Code",
-        "tech_stack":["Html", "CSS", "JS", "GitHub API", "Gatsby"],
-        "proj_admin":"Manas Gupta ",
-        "repo":"https://github.com/cyberbuddy-io/open-source-contribution-for-beginners",
-        "mentor_mail":"mailto:rspmanas1@gmail.com",
-        "mentor_linkedin":"Https://linkedin.com/in/cyberbuddy-manas",
-        "mentor_github":"",
-        "desc":"Know your code contains codes in many languages with the explanation to each in a readme file. We want to index these codes and create a website using GitHub API."
     },
     {
         "name":"Ezy Parking",

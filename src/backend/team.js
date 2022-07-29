@@ -51,7 +51,7 @@ export const team=[
     {
         "name":"Mayuri Gaikwad",
         "desig":"Management Lead",
-        "linkedin":"https://www.linkedin.com/in/mayuri-gaikwad-b6b770209/",
+        "linkedin":"https://www.linkedin.com/in/rtr-mayuri-gaikwad-b6b770209/",
         "github":"https://github.com/girija0707",
         "images":"MAYURI GAIKWAD.jpeg"
     },
